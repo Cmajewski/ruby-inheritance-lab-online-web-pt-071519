@@ -5,7 +5,7 @@ class Student <User
   end
 
   def learn(string)
-    @knowledge<<string.to_a
+    @knowledge<<string.join
   end
 
 end
